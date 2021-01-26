@@ -154,8 +154,10 @@ sub help {
   my $err_msg = scalar(@_) ? "\nERROR: " . pop(@_) . "\n--------------\n" : "";
   print $err_msg . "Rocktown Historical Society surname file parser\n" .
         "  Usage: parse_rhs.pl [-f <file_or_directory>] [-r] [-d] [-h]\n" .
-        "  Options: -i <file_or_directory> : Filename or directory of the input file(s), (default: current working directory)\n" .
-        "           -o <file>              : Filename of the output file (default: rhs_surname_index.out)\n" .
+        "  Options: -i <file_or_directory> : Filename or directory of the input file(s)\n" .
+        "                                    default: current working directory\n" .
+        "           -o <file>              : Filename of the output file\n" .
+        "                                    default: rhs_surname_index.out\n" .
         "           -r                     : Recursively parse all subdirectories if passed a directory\n" .
         "           -d                     : Print debug messages\n" .
         "           -h                     : Print this help message\n\n";
