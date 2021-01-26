@@ -153,7 +153,7 @@ sub dbg {
 sub help {
   my $err_msg = scalar(@_) ? "\nERROR: " . pop(@_) . "\n--------------\n" : "";
   print $err_msg . "Rocktown Historical Society surname file parser\n" .
-        "  Usage: parse_rhs.pl [-f <file_or_directory>] [-r] [-d] [-h]\n" .
+        "  Usage: rhs_surname_parse.pl [-f <file_or_directory>] [-r] [-d] [-h]\n" .
         "  Options: -i <file_or_directory> : Filename or directory of the input file(s)\n" .
         "                                    default: current working directory\n" .
         "           -o <file>              : Filename of the output file\n" .

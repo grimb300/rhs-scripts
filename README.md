@@ -4,7 +4,7 @@ A series of Perl scripts created to efficiently parse data contained in static H
 
 - rhs_surname_parse.pl
   ```
-  Usage: parse_rhs.pl [-f <file_or_directory>] [-r] [-d] [-h]
+  Usage: rhs_surname_parse.pl [-f <file_or_directory>] [-r] [-d] [-h]
   Options: -i <file_or_directory> : Filename or directory of the input file(s)
                                     default: current working directory
            -o <file>              : Filename of the output file
@@ -12,3 +12,4 @@ A series of Perl scripts created to efficiently parse data contained in static H
            -r                     : Recursively parse all subdirectories if passed a directory
            -d                     : Print debug messages
            -h                     : Print this help message
+  ```
